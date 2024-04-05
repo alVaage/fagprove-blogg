@@ -70,3 +70,22 @@ Jeg kommer til å bruke Appframe rammeverket til omega 365 til det ytterste. Det
  
 ## Informasjonskilder og Samarbeidspartnere 
 Jeg bruker andre kollegaer, faglig leder Tor Halvorsen Aasheim og tilgjengelig informasjon på nettet for å innhente nødvendig informasjon under fagprøven.
+
+## Skisse løsning
+### Database Diagram
+![Database Diagram](Images/DatabaseDiagram.png)
+Første utkast av tabell oppsettet.
+- Posts
+    - Inneholder blog postene.
+- PostsTopicss
+    - Samling av topics lagt til på posts.
+- Topics
+    - De forskjellige topicene som kan legges på blog postene.
+- PostsReactions
+    - Samling av reaksjoner lagt til på posts.
+- Reactions
+    - De forskjellige reaksjonene som kan legges til på blog på postene
+
+### Mulige utbedringer til senere
+Om jeg ser jeg får tid vil jeg legge til komentar funksjonalitet
+
