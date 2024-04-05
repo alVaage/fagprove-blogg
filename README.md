@@ -89,3 +89,7 @@ Første utkast av tabell oppsettet.
 ### Mulige utbedringer til senere
 Om jeg ser jeg får tid vil jeg legge til komentar funksjonalitet
 
+### Design
+![Database Diagram](Images/BloggDesign.png)
+[Design](https://www.figma.com/file/CWxLCBezZVCWnglBLJnA6U/Blogg?type=design&node-id=0%3A1&mode=design&t=6h6lab6enwfteIdu-1)
+
