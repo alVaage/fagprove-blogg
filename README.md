@@ -73,7 +73,7 @@ Jeg bruker andre kollegaer, faglig leder Tor Halvorsen Aasheim og tilgjengelig i
 
 ## Skisse løsning
 ### Database Diagram
-![Database Diagram](Images/DatabaseDiagram.png)
+![Database Diagram Bilde](Images/DatabaseDiagram.png)
 Første utkast av tabell oppsettet.
 - Posts
     - Inneholder blog postene.
@@ -90,6 +90,6 @@ Første utkast av tabell oppsettet.
 Om jeg ser jeg får tid vil jeg legge til komentar funksjonalitet
 
 ### Design
-![Database Diagram](Images/BloggDesign.png)
+![Design Bilde](Images/BloggDesign.png)
 [Design](https://www.figma.com/file/CWxLCBezZVCWnglBLJnA6U/Blogg?type=design&node-id=0%3A1&mode=design&t=6h6lab6enwfteIdu-1)
 
