@@ -53,7 +53,7 @@ Jeg kommer til å bruke Appframe rammeverket til omega 365 til det ytterste. Det
     - Teste applikasjonen 3.5t
 
 - Torsdag 11.04
-    - Utbedre feil funnet under utviklingen - 3.5t
+    - Utbedre feil funnet under testingen - 3.5t
     - Skrive systemdokumentasjon, testrapport og brukerveiledning 4t
 
 - Fredag 12.04 (Endret datoen)
