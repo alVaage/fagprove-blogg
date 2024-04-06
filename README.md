@@ -73,7 +73,7 @@ Jeg bruker andre kollegaer, faglig leder Tor Halvorsen Aasheim og tilgjengelig i
 
 ## Skisse løsning
 ### Database Diagram
-![Database Diagram Bilde](Images/DatabaseDiagram.png)
+![Database Diagram Bilde](Images/DatabaseDiagramCurrent.png)
 Første utkast av tabell oppsettet.
 - Posts
     - Inneholder blog postene.
