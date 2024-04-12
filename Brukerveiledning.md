@@ -1,4 +1,4 @@
-# Brukerveiledning
+![image](https://github.com/alVaage/fagprove-blogg/assets/89899309/68bf2aa8-9d75-4dbe-81ab-1eafb9348a18)# Brukerveiledning
 <details open>
   <summary>
     <h2>Lage ett nytt inlegg</h2>
@@ -14,10 +14,10 @@
   <summary>
     <h2>Redigering / sletting av poster</h2>
   </summary>
-  Om du vil redigere et innlegg kan du gjøre det med edit / delete icone øverst til høyre i innlegget. Disse viser bare om du er forfatter av innlegget.
-  <img src="./Images/Brukerveiledning/EditDeletePost.png"/>
-  Endringene lagres med lagre knappen eller kanseleres med cancel knappen eller tilbake ikonet 
-  <img src="./Images/Brukerveiledning/SaveCancelEdit.png"/>
+  Om du vil redigere et innlegg kan du gjøre det med edit / delete icone øverst til høyre i innlegget. Disse viser bare om du er forfatter av innlegget.<br>
+  <img src="./Images/Brukerveiledning/EditDeletePost.png"/><br>
+  Endringene lagres med lagre knappen eller kanseleres med cancel knappen eller tilbake ikonet <br>
+  <img src="./Images/Brukerveiledning/SaveCancelEdit.png"/><br>
 </details>
 <details open>
   <summary>
@@ -40,7 +40,7 @@
   For å sorte posts på topics åpne topics fanen fra fremsiden.
   <img src="./Images/Brukerveiledning/TopicLocation.png"/>
   Herfra trykker du på ønsket topic for å se de forskjellige
-  <img src="./Images/Brukerveiledning/SaveCancelEdit.png"/>
+  <img src="./Images/Brukerveiledning/clickTopic.png"/>
 </details>
 
 <details open>
