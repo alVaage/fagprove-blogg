@@ -325,7 +325,7 @@ Brukerveiledning finner du her: [Brukerveiledning](./Brukerveiledning.md)
       <table>
         <tr>
           <td>
-            <img src="/Images/v-for.png" width="60" />
+            <img src="/Images/propsPage.png" width="60" />
           </td>
         </tr>
       </table>
@@ -334,7 +334,7 @@ Brukerveiledning finner du her: [Brukerveiledning](./Brukerveiledning.md)
       <table>
         <tr>
           <td>
-            <img src="/Images/post.png" width="60" />
+            <img src="/Images/topicsMenuLocation.png" width="60" />
           </td>
         </tr>
       </table>
@@ -352,7 +352,7 @@ Brukerveiledning finner du her: [Brukerveiledning](./Brukerveiledning.md)
       <table>
         <tr>
           <td>
-            <img src="/Images/v-for.png" width="60" />
+            <img src="/Images/FroalaEditorCode.png" width="60" />
           </td>
         </tr>
       </table>
@@ -361,7 +361,7 @@ Brukerveiledning finner du her: [Brukerveiledning](./Brukerveiledning.md)
       <table>
         <tr>
           <td>
-            <img src="/Images/post.png" width="60" />
+            <img src="/Images/froalaEditor.png" width="60" />
           </td>
         </tr>
       </table>
@@ -484,7 +484,7 @@ Brukerveiledning finner du her: [Brukerveiledning](./Brukerveiledning.md)
       <a href="#">Sitesetup</a>
     </li>
     <li>
-      <a href="#">Omega GPT</a>
+      <a href="#">Chat GPT</a>
     </li>
     <li>
       <a href="https://stackoverflow.com/">Stackoverflow</a>
@@ -493,10 +493,7 @@ Brukerveiledning finner du her: [Brukerveiledning](./Brukerveiledning.md)
       <a href="#">Code search</a>
     </li>
     <li>
-      <a href="https://www.figma.com/file/Tx8VgFlesvwddki1t5iBjc/Handleliste?type=design&node-id=0-1&mode=design&t=7J7g9XgK7WVPyPrd-0">Figma</a>
-    </li>
-    <li>
-      Dennis (Erstattning for Omegas mangel på docs)
+      <a href="[https://www.figma.com/file/Tx8VgFlesvwddki1t5iBjc/Handleliste?type=design&node-id=0-1&mode=design&t=7J7g9XgK7WVPyPrd-0](https://www.figma.com/file/CWxLCBezZVCWnglBLJnA6U/Blogg?type=design&node-id=0-1&mode=design&t=CkX3BEVPjRmSBMjg-0)">Figma</a>
     </li>
   </ol>
   <hr />
