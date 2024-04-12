@@ -305,16 +305,10 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
   </summary>
     I omega løses sikkerheten med moduler, roller og capabilities. <br> 
     Vi bruker moduler for å definere "tilgangs pakker" som sier hvilke tabeller du skal kunne lese data fra, slette og gjøre endringer på. Her setter du også opp hvilke apper du får se.<br>
-    Modulene knyttes så til roller som videre knyttes på brukere. Rollene kan knyttes til mange moduler og capabilities.<br>
-    Capabilities kan brukes til å gi spesial tilganger til roller der det ikke ønskes å opprette en ny modul.
-
-   <table>
-    <th>
-      <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/0a9f2864-7bc9-4ea0-9a3f-412339a1ea1f" width="60" />
-    </th>
-    <th>
-      <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/8647a516-2559-4f8b-9969-6d4cdfa02892" width="60" />
-    </th>
+    Modulene knyttes så til roller som videre knyttes på brukere. Rollene kan knyttes til mange moduler og capabilities. Og mange brukere kan knyttes til en bruker. Dette fører til veldig enkel og oversiktlig tilgangstyring.<br>
+    Capabilities kan brukes til å gi spesial tilganger til roller der det ikke ønskes å opprette en ny modul.<br>
+    For å få tilgangen til en bruker trenger du en login. Databasen i omega er satt til mixed login, noe som gjør at du kan både bruke sql brukernavn og passord, og microsoft authentication. <br>
+    Begge innloggings metodene resulterer i at det returneres token som verifiserer at du er du.
   </table>
   
 <hr />
