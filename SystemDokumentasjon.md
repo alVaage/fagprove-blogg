@@ -24,7 +24,7 @@ Krav for oppgave
 - Design
   - Design som møter grunnleggende krav til universell utforming og tilgjengelighet. 
 
-Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagprove-blogg/Brukerveiledning.md)
+Brukerveiledning finner du her: [Brukerveiledning](./Brukerveiledning.md)
 
 <hr>
 </details>
