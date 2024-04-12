@@ -64,13 +64,13 @@
   
   Målet var å lage en blogg-app der brukere kan publisere og administrere sine egne blogginnlegg. Blogginleggene skal ha enkel formatering og det skal være en mulighet for brukere å reagere på postene i form av kudos/likes/reactions. I tillegg ble det lagt til muligheten for brukere å knytte blogginnlegg til forskjellige topics. Det er mulig å opprette nye, slette og endre farge på topicene. Det er også mulig å sortere etter spesifikke topics. For eksempel, hvis du bare vil se blogginnlegg om mat eller programmering, kan du enkelt sortere etter dette i topics-fanen.
 Krav for oppgave
-- Applikasjonskomponenter:
+- Applikasjonskomponenter
   - En server- og en klient-komponent, bloggposter med metadata ligger på server og tilbyr disse via et sikret API. 
-- Innleggshåndtering:
+- Innleggshåndtering
   - Legg til nye blogginnlegg med dato, vis en liste over tidligere innlegg, og gi muligheten til å slette og editere spesifikke innlegg. 
-- Lagring:
+- Lagring
   - Innlegg med metadata lagres på server, med en sikring for at kun eieren av bloggen kan redigere innholdet. 
-- Design:
+- Design
   - Design som møter grunnleggende krav til universell utforming og tilgjengelighet. 
 
 Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagprove-blogg/Brukerveiledning.md)
