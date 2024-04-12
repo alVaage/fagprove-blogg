@@ -83,12 +83,18 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
   </summary>
     
 - Appframe 365 (NT)
-    - Detta blei brukt fordi det allerede har innebygd funksjonalitet for sikkerhet rundt innlogging, registrering osv.
-- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-    - Ligge egentlig inne i appframe 365 fra før, så derfor det e med.
-- [Bootstrap Icons](https://icons.getbootstrap.com)
-- Vue
-- ArkDashboard Database (for bilder og items)
+    - Omega sitt eget rammeverk
+    - Håndterer innlogging på en sikker måte
+    - Legger opp til gode sikkerhetsrutiner med roller, moduler og capabilities
+- Vue.js sammen med Bootstrap
+    - Frontenden lages med vue.js og bootstrap
+    - Dette gir mange muligheter og legger opp til enkel og effektiv utvikling
+- Font Awsome ikoner
+  - Ikoner hentes enkelt fra Font Awsome
+  - Enorm mye mer innholdsrik en ikonene som kommer med bootstrap
+- SQL database
+  - Appframe er designet for å brukes med sql
+  - Naturlig valg for å håndtere data
 <hr>
 </details>
 
