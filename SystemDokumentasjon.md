@@ -91,7 +91,7 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
     - Dette gir mange muligheter og legger opp til enkel og effektiv utvikling
 - Font Awsome ikoner
   - Ikoner hentes enkelt fra Font Awsome
-  - Enorm mye mer innholdsrik en ikonene som kommer med bootstrap
+  - Enormt mye mer innholdsrik en ikonene som kommer med bootstrap
 - SQL database
   - Appframe er designet for å brukes med sql
   - Naturlig valg for å håndtere data
@@ -124,7 +124,7 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
         <tr>
           <td><b>atbl_AVBlog_Posts</b></td>
           <td>
-            Inneholder bloggpost innhold og metadata
+            Inneholder innlegets innhold og metadata
           </td>
           <td>
             Kan se
