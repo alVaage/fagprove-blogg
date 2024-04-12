@@ -110,7 +110,7 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
             <h4>Tabeller</h4>:
           </summary>
         
-  [Tabellstruktur](https://drawsql.app/teams/arvid/diagrams/tabellstruktur)
+  [Tabellstruktur](./Images/DatabaseDiagramCurrent.png)
         
    <details>
       <summary>
