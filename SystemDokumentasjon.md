@@ -296,68 +296,81 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
         </td>
         <td>
           <table>
-            <th>
-              <img src="/Images/v-for.png" width="60" />
-            </th>
+            <tr>
+              <td>
+                <img src="/Images/v-for.png" width="60" />
+              </td>
+            </tr>
           </table>
         </td>
         <td>
           <table>
-            <th>
-              <img src="/Images/post.png" width="60" />
-            </th
+            <tr>
+              <td>
+                <img src="/Images/post.png" width="60" />
+              </td>
+            </tr>
           </table>
         </td>
-      </tr>   
-      <tr>
-        <td>Side styring</td>
-        <td colspan="2">
-        <p>
-          Side visningen er styrt av en ref variabel som settes til 'Home', 'New', 'Topic' osv. basert på hvilke side som skal vises.<br>
-          Denne variabelen sendes mellom de forskjellige filene ved bruk av props og emits. Dette fører til enkel og god kontrol som sikrer at side menyen og innholdet alltid vil stemme overens, da disse baserer seg på samme variabel.          
-        </p>
-        </td>
-        <td>
-          <table>
-            <th>
-              <img src="/Images/v-for.png" width="60" />
-            </th>
-          </table>
-        </td>
-        <td>
-          <table>
-            <th>
-              <img src="/Images/post.png" width="60" />
-            </th
-          </table>
-        </td>
-      </tr>    
-      <tr>
-        <td>Formatering av blogginlegg</td>
-        <td colspan="2">
-        <p>
-          Formatering av innlegg håndteres av en Omega komponent som baserer seg på Froala Editoren. <br>
-          En komponent er et en kode som ved hjelp av props og properties kan importeres og brukes universalt til flere ting. Forala Editoren tar det du skriver inn og gjør det om til html. Du kan derfor formatere innholdet på alle tenkelige måter. 
-        </p>
-        </td>
-        <td>
-          <table>
-            <th>
-              <img src="/Images/FroalaEdit.png" width="60" />
-            </th>
-          </table>
-        </td>
-        <td>
-          <table>
-            <th>
-              <img src="/Images/FroalaEdit.png" width="60" />
-            </th
-          </table>
-        </td>
-      </tr>       
-    </table>
+      </tr>
+  <tr>
+    <td>Side styring</td>
+    <td colspan="2">
+    <p>
+      Side visningen er styrt av en ref variabel som settes til 'Home', 'New', 'Topic' osv. basert på hvilke side som skal vises.<br>
+      Denne variabelen sendes mellom de forskjellige filene ved bruk av props og emits. Dette fører til enkel og god kontrol som sikrer at side menyen og innholdet alltid vil stemme overens, da disse baserer seg på samme variabel.          
+    </p>
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td>
+            <img src="/Images/v-for.png" width="60" />
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td>
+            <img src="/Images/post.png" width="60" />
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>Formatering av blogginlegg</td>
+    <td colspan="2">
+      <p>
+        Formatering av innlegg håndteres av en Omega komponent som baserer seg på Froala Editoren. <br>
+        En komponent er et en kode som ved hjelp av props og properties kan importeres og brukes universalt til flere ting. Forala Editoren tar det du skriver inn og gjør det om til html. Du kan derfor formatere innholdet på alle tenkelige måter. 
+      </p>
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td>
+            <img src="/Images/v-for.png" width="60" />
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td>
+            <img src="/Images/post.png" width="60" />
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr> 
+  </table>
   <hr/>
 </details>
+
 <!--<details open>
   <summary>
     <h2>Hindringer under utviklingen</h2>
@@ -453,8 +466,7 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
       </p>
     </li>
   </ol>
- 
-<hr />
+  <hr/>
 </details>
 <details open>
   <summary>
@@ -487,6 +499,5 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
       Dennis (Erstattning for Omegas mangel på docs)
     </li>
   </ol>
- 
-<hr />
+  <hr />
 </details>
