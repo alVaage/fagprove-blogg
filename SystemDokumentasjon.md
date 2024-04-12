@@ -105,207 +105,196 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
   
  <ul>
     <li>
-      <details>
-          <summary>
-            <h4>Tabeller</h4>:
-          </summary>
-        
-  [Tabellstruktur](./Images/DatabaseDiagramCurrent.png)
-        
-   <details>
       <summary>
-        <h4>Sikkerhet i Tabeller</h4>:
+        <h4>Tabeller</h4>:
       </summary>
-
-  For tilgangsstyring så er sql triggere brukt.<br>
-  Disse sørger for at ikke hvem som helst får lov å legge til, oppdatere eller slette rader.
-
-  <table>
+      ![Database Diagram Bilde](Images/DatabaseDiagramCurrent.png)
+      <table>
         <tr>
           <th>Tabell Navn</th>
           <th>Beskrivelse</th>
-          <th>Regler Insert</th>
-          <th>Regler Update</th>
-          <th>Regler Delete</th>
-          <th>Bilder</th>
+          <th>Modul - Blog Viewer tilganger</th>
+          <th>Modul - Blog Viewer tilganger</th>
+          <th>Insert trigger</th>
+          <th>Update trigger</th>
+          <th>Delete trigger</th>
+          <th>Foreign Key</th>
+          <th>Unique Constraints</th>
         </tr>
         <tr>
-          <td><b>atbl_ArvidWedtstein_Goods</b></td>
+          <td><b>atbl_AVBlog_Posts</b></td>
           <td>
-            Dataene i denne tabellen er hentet direkte fra ArkDashboard databasen.<br>
-            Dermed fikk jeg bilder, og slapp å inserte items selv.
+            Inneholder bloggpost innhold og metadata
           </td>
           <td>
-            Kun brukere som har tabellen i permissiontables får lov å slette/redigere/legge til her.
+            Kan se
           </td>
           <td>
-            Kun brukere som har tabellen i permissiontables får lov å slette/redigere/legge til her.
+            Kan se, legge til, redigere og slette
           </td>
           <td>
-            Kun brukere som har tabellen i permissiontables får lov å slette/redigere/legge til her.
+            Sikkerhetssjekk
           </td>
           <td>
-            <table>
-              <th>
-                <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/2873e437-e421-4458-9430-ba7c4a84ec3e" width="60" />
-              </th>
-              <th>
-                <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/633879f7-b9e1-4496-aa92-c3ce4f9fac41" width="60" />
-              </th>
-              <th>
-                <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/d2f2a337-c603-4263-8f64-2d90ffae3293" width="60" />
-              </th>
-            </table>
+            Sikkerhetssjekk
           </td>
+          <td>
+            Sikkerhetssjekk
+          </td>
+          <td></td>
+          <td></td>
         </tr>
         <tr>
-          <td><b>atbl_ArvidWedtstein_ShoppingLists</b></td>
-          <td>Tabell som handelistene lagres i</td>
+          <td><b>atbl_AVBlog_PostsTopics</td>
           <td>
-          <p>
-            Kun brukere som har tabellen i permissiontables får lov å legge til her.
-          </p>
+            Kobler topics til posts
           </td>
           <td>
-          <p>
-            For oppdatering så må du eie handelisten som oppdateres, eller ha fått den tildelt i tillegg til å ha tilgang til å gjøre endringer her.<br>
-          </p>
+            Kan se
           </td>
           <td>
-          <p>
-            For å slette må du eie handelisten.
-          </p>
+            Kan se, legge til, redigere og slette
           </td>
           <td>
-            <table>
-              <th>
-                <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/f6b4e821-d8fc-4dd1-9c82-d10f34640797" width="60" />
-              </th>
-              <th>
-                <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/ad05a4e4-7203-4428-a7f2-cc4725b8f09c" width="60" />
-              </th>
-              <th>
-                <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/a336b9dd-d08b-4f91-85e5-c8fed418ea0c" width="60" />
-              </th>
-            </table>
+            Sikkerhetssjekk
           </td>
+          <td>
+            Sikkerhetssjekk
+          </td>
+          <td>
+            Sikkerhetssjekk
+          </td>
+          <td>Post_ID => ID (atbl_AVBlog_Posts), <br>
+            Topic_ID => ID (atbl_AVBlog_Topics)
+          </td>
+          <td>(Topic_ID, Post_ID)</td>
         </tr>
         <tr>
-          <td><b>atbl_ArvidWedtstein_ShoppingListsItems</td>
+          <td><b>atbl_AVBlog_Topics</td>
           <td>
-              Tabell for varene i en handeliste.
-          </td>
-          <td>
-           For å kunne legge til her må brukeren være en del av handelisten eller fått den tildelt og i tillegg ha tilgang til å gjøre endringer.
-          </td>
-           <td>
-            For å kunne legge til her må brukeren være en del av handelisten eller fått den tildelt og i tillegg ha tilgang til å gjøre endringer.
-          </td>
-           <td>
-           For å kunne legge til her må brukeren være en del av handelisten eller fått den tildelt og i tillegg ha tilgang til å gjøre endringer gjennom permissiontables
+            Inneholder de forskjellige topic-ene
           </td>
           <td>
-            <table>
-              <th>
-                <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/45b96cc2-70db-4237-a26c-0cdef9045487" width="60" />
-              </th>
-              <th>
-                <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/fafacb52-2b96-49e8-b5f6-2cbed1a1b3c2" width="60" />
-              </th>
-              <th>
-                <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/dbb916e3-f86d-4276-bc18-7009d7eeaead" width="60" />
-              </th>
-            </table>
+            Kan se
           </td>
+          <td>
+            Kan se, legge til, redigere og slette
+          </td>
+          <td>
+            Sikkerhetssjekk
+          </td>
+          <td>
+            Sikkerhetssjekk
+          </td>
+          <td>
+            Sikkerhetssjekk
+          </td>
+          <td></td>
+          <td>(Name)</td>
         </tr>
         <tr>
-          <td>atbl_ArvidWedtstein_ShoppingListsSharedWith</td>
+          <td><b>atbl_AVBlog_PostsReactions</td>
           <td>
-              Tabell for å holde styr på hvem en handeliste har blitt delt med.
+            Kobler topics til posts
           </td>
           <td>
-            Bare brukere som eier handelisten kan dele den videre.<br />
-            Her ligger det også sjekk for at man ikke kan dele handelisten med eieren eller samme person to ganger.
+            Kan se, legge til, redigere og slette
           </td>
           <td>
-             Bare brukere som eier handelisten kan oppdatere hvem som skal kunne se den.<br>
-             Også her ligger det sjekk for at man ikke kan dele med samme person to ganger og ikke med eieren
+            Kan se, legge til, redigere og slette
           </td>
           <td>
-            Bare brukere som eier handelisten kan fjerne delte folk.
+            Sikkerhetssjekk og fjerner gamle reaksjoner om du allerede har reagert på innlegget
           </td>
           <td>
-            <table>
-              <th>
-                <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/6454db7b-2750-4aeb-813e-10e4dd929310" width="60" />
-              </th>
-              <th>
-                <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/1b4822ff-adc2-4986-922a-8873f0645588" width="60" />
-              </th>
-              <th>
-                <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/b8180a23-3a3e-4f22-8937-70c6b92ca419" width="60" />
-              </th>
-            </table>
+            Sikkerhetssjekk
           </td>
-        </tr>
+          <td>
+            Sikkerhetssjekk
+          </td>
+          <td>Post_ID => ID (atbl_AVBlog_Posts), <br>
+            Reactions_ID => ID (atbl_AVBlog_Reactions)
+          </td>
+          <td></td>
+        </tr>     
+        <tr>
+          <td><b>atbl_AVBlog_Reactions</td>
+          <td>
+            Inneholder de forskjellige reacksjonene
+          </td>
+          <td>
+            Kan se
+          </td>
+          <td>
+            Kan se, legge til, redigere og slette
+          </td>
+          <td>
+            Sikkerhetssjekk, legger til SortOrder om reaksjonen er DefaultReaction
+          </td>
+          <td>
+            Sikkerhetssjekk, legger til SortOrder om reaksjonen er DefaultReaction
+          </td>
+          <td>
+            Sikkerhetssjekk
+          </td>
+          <td></td>
+          <td>(Name), (FontAwsomeIconString)</td>
+        </tr>   
       </table>
-  </details>
-      </details>
     </li>
-    <li>
+    <!--<li>
       <details>
-          <summary>
+          [<summary>
             <h4>Views</h4>:
           </summary>
-        
-  <table>
-  <tr>
-    <th>View Navn</th>
-    <th>Beskrivelse</th>
-    <th>Kode</th>
-  </tr>
-  <tr>
-    <td>aviw_ArvidWedtstein_MyShoppingLists</td>
-    <td>
-      View for å begrense hvem som ser hvilke handelister.<br>
-      Dette viewet tar med seg prosent fullført, hvem listen har blitt delt med for å vise "Shared with" på fremsiden som JSON.<br>
-      Legger også til alle som har fått tildelt handelisten i søkekolonnen.
-    </td>
-    <td>
-     <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/78e0cd7e-7fe2-4b99-acac-f2afabc8d5be" width="60" />
-    </td>
-  </tr>
-  <tr>
-    <td>aviw_ArvidWedtstein_ShoppingListsItems</td>
-    <td>
-      Eksisterer for å få med de siste relevante kolonnene for Søke kolonnen, i tilleg til å få med bilde, navn og kategori på varen.<br>
-      Brukes på siden for å vise handelistens innhold.
-    </td>
-    <td>
-      <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/c363a359-f5e9-4d78-bbd4-8a770cb1223d" width="48" />
-    </td>
-  </tr>
-  <tr>
-    <td>aviw_ArvidWedtstein_ShoppingListsSharedWith</td>
-    <td>
-      Dette viewet eksisterer bare for å få med navn på hvem handelisten(e) er delt med.
-    </td>
-    <td>
-     <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/2227c50f-03d3-442e-bb12-4c9148468b34" width="48" />
-    </td>
-  </tr>
-  <tr>
-    <td>aviw_ArvidWedtstein_GoodsLkp</td>
-    <td>
-      Dette viewet eksisterer bare som datasource for lookupen til å legge til ny vare.<br>
-      Viewet tar seg seg dine "personlige" varer so mdu har laget, samt de som eventuelt ble laget av noen i samme handleliste som du er en del av.</td>
-    <td>
-     <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/c3ef58bb-21f0-4365-803a-30da0d99d051" width="48" />
-    </td>
-  </tr>
-</table>
+          <table>
+          <tr>
+            <th>View Navn</th>
+            <th>Beskrivelse</th>
+            <th>Kode</th>
+          </tr>
+          <tr>
+            <td>aviw_ArvidWedtstein_MyShoppingLists</td>
+            <td>
+              View for å begrense hvem som ser hvilke handelister.<br>
+              Dette viewet tar med seg prosent fullført, hvem listen har blitt delt med for å vise "Shared with" på fremsiden som JSON.<br>
+              Legger også til alle som har fått tildelt handelisten i søkekolonnen.
+            </td>
+            <td>
+             <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/78e0cd7e-7fe2-4b99-acac-f2afabc8d5be" width="60" />
+            </td>
+          </tr>
+          <tr>
+            <td>aviw_ArvidWedtstein_ShoppingListsItems</td>
+            <td>
+              Eksisterer for å få med de siste relevante kolonnene for Søke kolonnen, i tilleg til å få med bilde, navn og kategori på varen.<br>
+              Brukes på siden for å vise handelistens innhold.
+            </td>
+            <td>
+              <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/c363a359-f5e9-4d78-bbd4-8a770cb1223d" width="48" />
+            </td>
+          </tr>
+          <tr>
+            <td>aviw_ArvidWedtstein_ShoppingListsSharedWith</td>
+            <td>
+              Dette viewet eksisterer bare for å få med navn på hvem handelisten(e) er delt med.
+            </td>
+            <td>
+             <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/2227c50f-03d3-442e-bb12-4c9148468b34" width="48" />
+            </td>
+          </tr>
+          <tr>
+            <td>aviw_ArvidWedtstein_GoodsLkp</td>
+            <td>
+              Dette viewet eksisterer bare som datasource for lookupen til å legge til ny vare.<br>
+              Viewet tar seg seg dine "personlige" varer so mdu har laget, samt de som eventuelt ble laget av noen i samme handleliste som du er en del av.</td>
+            <td>
+             <img src="https://github.com/ArvidWedtstein/Fagproove/assets/71834553/c3ef58bb-21f0-4365-803a-30da0d99d051" width="48" />
+            </td>
+          </tr>
+        </table>
       </details>
-    </li>
+    </li>-->
   </ul>
   
   <hr />
