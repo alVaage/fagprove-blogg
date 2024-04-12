@@ -6,55 +6,6 @@
     <sub>05.04.24 - 15.04.24</sub>
   </p>
 </div>
-
-<details>
-  <summary>
-    <b>Table of Contents</b>
-  </summary>
-  <ol>
-    <li>
-      <a href="#info">Info</a>
-    </li>
-    <li>
-      <a href="#teknologier">Teknologier</a>
-    </li>
-    <li>
-      <a href="#teknologier">Arkitektur</a>
-       <ul>
-        <li>
-          <a href="#tabeller">Tabeller</a>
-          <ul>
-            <li>
-              <a href="#sikkerhet-i-tabeller">Sikkerhet i Tabeller</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="#views">Views</a>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="#sikkerhet">Sikkerhet</a>
-    </li>
-    <li>
-      <a href="#testing">Testing</a>
-    </li>
-    <li>
-      <a href="#grensesnittbeskrivelse">Grensesnittbeskrivelse</a>
-    </li>
-    <li>
-      <a href="#hindringer-under-utviklingen">Hindringer under utviklingen</a>
-    </li>
-    <li>
-      <a href="#avvik-fra-plan">Avvik fra plan</a>
-    </li>
-    <li>
-      <a href="#kilder">Kilder / Ressurser</a>
-    </li>
-  </ol>
-</details>
-
 <details open>
   <summary>
     <h2>Info</h2>
@@ -103,12 +54,12 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
     <h2>Arkitektur</h2>
   </summary>
   
- <ul>
+  <ul>
     <li>
       <summary>
         <h4>Tabeller</h4>:
       </summary>
-      ![Database Diagram Bilde](Images/DatabaseDiagramCurrent.png)
+      <img src="./Images/DatabaseDiagramCurrent.png"/>
       <table>
         <tr>
           <th>Tabell Navn</th>
@@ -296,8 +247,6 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
       </details>
     </li>-->
   </ul>
-  
-  <hr />
 </details>
 <details open>
   <summary>
@@ -309,18 +258,15 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
     Capabilities kan brukes til å gi spesial tilganger til roller der det ikke ønskes å opprette en ny modul.<br>
     For å få tilgangen til en bruker trenger du en login. Databasen i omega er satt til mixed login, noe som gjør at du kan både bruke sql brukernavn og passord, og microsoft authentication. <br>
     Begge innloggings metodene resulterer i at det returneres token som verifiserer at du er du.
-  </table>
-  
-<hr />
 </details>
 <details open>
   <summary>
     <h2>Testing</h2>
   </summary>
     
-For å sikre kvalitet på appen(e), har jeg laget en [Testrapport](./TestReport.md) der jeg har gått over funksjonene i appen.
-
-<hr />
+  For å sikre kvalitet på appen(e), har jeg laget en [Testrapport](./TestReport.md) der jeg har gått over funksjonene i appen.
+  
+  <hr />
 </details>
 <details open>
   <summary>
