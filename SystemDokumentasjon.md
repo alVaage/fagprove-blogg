@@ -62,28 +62,19 @@
     
   Fagprøve oppgave.
   
-  Målet var å lage en blogg-app der brukere kan publisere og administrere sine egne blogginnlegg. Blogginleggene skal ha enkel formatering og det skal være en mulighet for brukere å reagere på postene i form av kudos/likes/reactions. 
-### Server-side:
-1. **API med sikker tilgang:**
-   - Implementer et API på serveren for å tilby bloggposter med metadata til klienten, med sikrede tilgangskontroller.
+  Målet var å lage en blogg-app der brukere kan publisere og administrere sine egne blogginnlegg. Blogginleggene skal ha enkel formatering og det skal være en mulighet for brukere å reagere på postene i form av kudos/likes/reactions. I tillegg ble det lagt til muligheten for brukere å knytte blogginnlegg til forskjellige topics. Det er mulig å opprette nye, slette og endre farge på topicene. Det er også mulig å sortere etter spesifikke topics. For eksempel, hvis du bare vil se blogginnlegg om mat eller programmering, kan du enkelt sortere etter dette i topics-fanen.
+Krav for oppgave
+- Applikasjonskomponenter:
+  - En server- og en klient-komponent, bloggposter med metadata ligger på server og tilbyr disse via et sikret API. 
+- Innleggshåndtering:
+  - Legg til nye blogginnlegg med dato, vis en liste over tidligere innlegg, og gi muligheten til å slette og editere spesifikke innlegg. 
+- Lagring:
+  - Innlegg med metadata lagres på server, med en sikring for at kun eieren av bloggen kan redigere innholdet. 
+- Design:
+  - Design som møter grunnleggende krav til universell utforming og tilgjengelighet. 
 
+Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagprove-blogg/Brukerveiledning.md)
 
-2. **Innleggshåndtering:**
-   - Lag funksjonalitet på serveren for å legge til, vise, slette og redigere blogginnlegg med datoer, og begrens tilgangen til kun eieren av innleggene.
-
-3. **Lagring og Sikkerhet:**
-   - Lagre innlegg og tilhørende metadata sikkert på serveren, og implementer sikkerhetsmekanismer for å sikre at bare eieren kan redigere innholdet.
-
-### Klient-side:
-1. **Brukergrensesnitt:**
-   - Utvikle et grensesnitt på klienten for å vise tidligere innlegg, legge til nye innlegg og redigere eksisterende innlegg.
-
-2. **Universell Utforming og Tilgjengelighet:**
-   - Design klientgrensesnittet med tanke på universell utforming og tilgjengelighet, slik at det er enkelt for alle å navigere og bruke applikasjonen.
-
-Bruksanvisning finner du her: [How i use this app?](https://github.com/ArvidWedtstein/Fagproove/wiki)
-
-Progress timeline: [Progress?](https://github.com/ArvidWedtstein/Fagproove/blob/main/Progress.md)
 <hr>
 </details>
 <details open>
