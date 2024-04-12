@@ -454,8 +454,8 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
       <p>
         Ble alt i alt veldig likt planlagt database-struktur. <br> 
         Kun et par felter fra og til: <br>
-        - Fjernet ColorHex fra reaksjoner, kom frem til at det ble en unødvendig funksjon. 
-        - La til DefaultReaction på reaction tabellen for å kunne ha like og dislike som standard på alle poster.
+          - Fjernet ColorHex fra reaksjoner, kom frem til at det ble en unødvendig funksjon. <br>
+          - La til DefaultReaction på reaction tabellen for å kunne ha like og dislike som standard på alle poster.
       </p>
     </li>
     <li>
