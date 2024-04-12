@@ -318,7 +318,7 @@ Bruksanvisning finner du her: [Brukerveiledning](https://github.com/alVaage/fagp
     <h2>Testing</h2>
   </summary>
     
-For å sikre kvalitet på appen(e), har jeg laget en [Testrapport](https://github.com/ArvidWedtstein/Fagproove/blob/main/Test_Report.md) der jeg har gått over funksjonene i appen.
+For å sikre kvalitet på appen(e), har jeg laget en [Testrapport](./TestReport.md) der jeg har gått over funksjonene i appen.
 
 <hr />
 </details>
@@ -328,7 +328,7 @@ For å sikre kvalitet på appen(e), har jeg laget en [Testrapport](https://githu
   </summary>
 
 - For beskrivelse hvordan applikasjonen brukes se:
-  [Brukerveiledning](https://github.com/ArvidWedtstein/Fagproove/wiki)
+  [Brukerveiledning](./Brukerveiledning.md)
 
 - Under finner du beskrivelse av funksjonaliteten sammen med litt kode:
     <table>
