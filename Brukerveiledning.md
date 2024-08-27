@@ -49,5 +49,5 @@
   </summary>
   For å lage ny topic trykk oppe i høyre på topics fanen.<br>
   Velg farge til høyre av topics boksen etter å ha valgt topic.
-  <img src="./Images/Brukerveiledning/TopicNewChangeColor"/>
+  <img src="./Images/Brukerveiledning/TopicNewChangeColor.png"/>
 </details>
