@@ -1,4 +1,4 @@
-![image](https://github.com/alVaage/fagprove-blogg/assets/89899309/68bf2aa8-9d75-4dbe-81ab-1eafb9348a18)# Brukerveiledning
+<h1>Brukerveiledning</h1>
 <details open>
   <summary>
     <h2>Lage ett nytt inlegg</h2>
